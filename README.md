@@ -4,16 +4,16 @@ This library is used to Map PHP object to other objects
 ## Installation
 Install this library using composer
 ```bash
-composer require frank-houweling/cartograph
+composer require senet-eindhoven/cartograph:^4.0
 ```
 
 ## Getting Started
 To use this library create an instance of the `MapperService`, using your preffered `MappingRepositoryInterface`
 ````php
 <?php
-use FrankHouweling\Cartograph\MapperService;
-use FrankHouweling\Cartograph\Mapping\DirectMapping;
-use FrankHouweling\Cartograph\MappingRepository;
+use SenetEindhoven\Cartograph\MapperService;
+use SenetEindhoven\Cartograph\Mapping\DirectMapping;
+use SenetEindhoven\Cartograph\MappingRepository;
 
 $foo = new Foo();
 $bar = new Bar();

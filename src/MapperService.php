@@ -1,19 +1,13 @@
 <?php
-/**
- * This file is part of Cartograph
- *
- * For license information, please view the LICENSE file that was distributed with this source code.
- * Written by Frank Houweling <houweling.frank@gmail.com>, 8/22/2017
- */
 
-namespace FrankHouweling\Cartograph;
+namespace SenetEindhoven\Cartograph;
 
-use FrankHouweling\Cartograph\Mapping\MappingInterface;
+use SenetEindhoven\Cartograph\Mapping\MappingInterface;
 use Psr\Container\ContainerInterface;
 
 /**
  * Class MapperService
- * @package FrankHouweling\Cartograph
+ * @package SenetEindhoven\Cartograph
  */
 class MapperService
 {

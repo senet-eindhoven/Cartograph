@@ -1,16 +1,10 @@
 <?php
-/**
- * This file is part of Cartograph
- *
- * For license information, please view the LICENSE file that was distributed with this source code.
- * Written by Frank Houweling <houweling.frank@gmail.com>, 21/01/2020
- */
 
-namespace FrankHouweling\Cartograph\TestClasses;
+namespace SenetEindhoven\Cartograph\TestClasses;
 
 /**
  * Class Baz
- * @package FrankHouweling\Cartograph\TestClasses
+ * @package SenetEindhoven\Cartograph\TestClasses
  */
 final class Baz
 {
