@@ -1,11 +1,12 @@
 <?php
 
-namespace SenetEindhoven\Cartograph\Mapping;
-use SenetEindhoven\Cartograph\MapperService;
+namespace Senet\Cartograph\Mapping;
+
+use Senet\Cartograph\MapperService;
 
 /**
  * Interface MappingInterface
- * @package SenetEindhoven\Cartograph\Mapping
+ * @package Senet\Cartograph\Mapping
  */
 interface MappingInterface
 {

@@ -1,10 +1,10 @@
 <?php
 
-namespace SenetEindhoven\Cartograph\TestClasses;
+namespace Senet\Cartograph\TestClasses;
 
 /**
  * Class Foo
- * @package SenetEindhoven\Cartograph\TestClasses
+ * @package Senet\Cartograph\TestClasses
  */
 final class Foo
 {

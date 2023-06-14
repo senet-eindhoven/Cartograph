@@ -1,13 +1,13 @@
 <?php
 
-namespace SenetEindhoven\Cartograph\test;
+namespace Senet\Cartograph\test;
 
 use Doctrine\ORM\EntityManager;
 use Doctrine\ORM\EntityManagerInterface;
-use SenetEindhoven\Cartograph\EntityMappingRepository;
-use SenetEindhoven\Cartograph\Mapping\MappingInterface;
-use SenetEindhoven\Cartograph\TestClasses\Bar;
-use SenetEindhoven\Cartograph\TestClasses\Foo;
+use Senet\Cartograph\EntityMappingRepository;
+use Senet\Cartograph\Mapping\MappingInterface;
+use Senet\Cartograph\TestClasses\Bar;
+use Senet\Cartograph\TestClasses\Foo;
 use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
 

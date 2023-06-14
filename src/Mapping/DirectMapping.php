@@ -1,12 +1,12 @@
 <?php
 
-namespace SenetEindhoven\Cartograph\Mapping;
+namespace Senet\Cartograph\Mapping;
 
-use SenetEindhoven\Cartograph\MapperService;
+use Senet\Cartograph\MapperService;
 
 /**
  * Class DirectMapping
- * @package SenetEindhoven\Cartograph\Mapping
+ * @package Senet\Cartograph\Mapping
  */
 class DirectMapping implements MappingInterface
 {

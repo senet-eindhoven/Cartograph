@@ -1,13 +1,13 @@
 <?php
 
-namespace SenetEindhoven\Cartograph\test;
+namespace Senet\Cartograph\test;
 
-use SenetEindhoven\Cartograph\MapperService;
-use SenetEindhoven\Cartograph\Mapping\MappingInterface;
-use SenetEindhoven\Cartograph\MappingRepositoryInterface;
-use SenetEindhoven\Cartograph\TestClasses\Bar;
-use SenetEindhoven\Cartograph\TestClasses\Baz;
-use SenetEindhoven\Cartograph\TestClasses\Foo;
+use Senet\Cartograph\MapperService;
+use Senet\Cartograph\Mapping\MappingInterface;
+use Senet\Cartograph\MappingRepositoryInterface;
+use Senet\Cartograph\TestClasses\Bar;
+use Senet\Cartograph\TestClasses\Baz;
+use Senet\Cartograph\TestClasses\Foo;
 use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
 use Psr\Container\ContainerInterface;

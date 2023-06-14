@@ -1,10 +1,10 @@
 <?php
 
-namespace SenetEindhoven\Cartograph;
+namespace Senet\Cartograph;
 
 /**
  * Class MappingRepository
- * @package SenetEindhoven\Cartograph
+ * @package Senet\Cartograph
  */
 class MappingRepository implements MappingRepositoryInterface
 {

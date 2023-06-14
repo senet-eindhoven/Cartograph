@@ -1,10 +1,10 @@
 <?php
 
-namespace SenetEindhoven\Cartograph\TestClasses;
+namespace Senet\Cartograph\TestClasses;
 
 /**
  * Class Baz
- * @package SenetEindhoven\Cartograph\TestClasses
+ * @package Senet\Cartograph\TestClasses
  */
 final class Baz
 {
