@@ -13,7 +13,7 @@
     "prefer-stable": true,
     "require": {
         "php": "^7.4||^8.0",
-        "psr/container": "^2.0"
+        "psr/container": "^1.0||^2.0"
     },
     "suggest": {
         "doctrine/orm": "Allows usage of the EntityMappingRepository, which handles proxy classes."
