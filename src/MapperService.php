@@ -1,13 +1,13 @@
 <?php
 
-namespace SenetEindhoven\Cartograph;
+namespace Senet\Cartograph;
 
-use SenetEindhoven\Cartograph\Mapping\MappingInterface;
+use Senet\Cartograph\Mapping\MappingInterface;
 use Psr\Container\ContainerInterface;
 
 /**
  * Class MapperService
- * @package SenetEindhoven\Cartograph
+ * @package Senet\Cartograph
  */
 class MapperService
 {

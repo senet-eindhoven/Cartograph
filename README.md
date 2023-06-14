@@ -11,9 +11,9 @@ composer require senet-eindhoven/cartograph:^4.0
 To use this library create an instance of the `MapperService`, using your preffered `MappingRepositoryInterface`
 ````php
 <?php
-use SenetEindhoven\Cartograph\MapperService;
-use SenetEindhoven\Cartograph\Mapping\DirectMapping;
-use SenetEindhoven\Cartograph\MappingRepository;
+use Senet\Cartograph\MapperService;
+use Senet\Cartograph\Mapping\DirectMapping;
+use Senet\Cartograph\MappingRepository;
 
 $foo = new Foo();
 $bar = new Bar();

@@ -1,6 +1,6 @@
 <?php
 
-namespace SenetEindhoven\Cartograph;
+namespace Senet\Cartograph;
 
 /**
  * Interface MappingRepositoryInterface

@@ -1,13 +1,13 @@
 <?php
 
-namespace SenetEindhoven\Cartograph;
+namespace Senet\Cartograph;
 
 use Doctrine\Common\Util\ClassUtils;
 use Doctrine\ORM\EntityManager;
 
 /**
  * Class EntityMappingRepository
- * @package SenetEindhoven\Cartograph
+ * @package Senet\Cartograph
  */
 final class EntityMappingRepository extends MappingRepository
 {
