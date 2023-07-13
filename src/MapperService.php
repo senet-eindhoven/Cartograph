@@ -59,9 +59,8 @@ class MapperService
      */
     private function getMapping(string $mappingClass): MappingInterface
     {
-        $mappingClass = (new $mappingClass());
         if ($this->container !== null && $this->container->has($mappingClass)) {
-            $mappingClass = $this->container->get($mappingClass);
+            return $this->container->get($mappingClass);
         }
 
         if (($mappingClass instanceof MappingInterface) === false) {
