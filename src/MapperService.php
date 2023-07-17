@@ -63,12 +63,16 @@ class MapperService
             return $this->container->get($mappingClass);
         }
 
-        if (($mappingClass instanceof MappingInterface) === false) {
-            throw new \LogicException(
-                sprintf('Mapping class %s does not implement MappingInterface', $mappingClass)
-            );
+        if (is_subclass_of($mappingClass, MappingInterface::class) === true) {
+            return (new $mappingClass());
         }
-        return (new $mappingClass());
+
+        throw new \LogicException(
+            sprintf(
+                'Mapping class %s does not implement MappingInterface',
+                $mappingClass
+            )
+        );
     }
 
     /**
